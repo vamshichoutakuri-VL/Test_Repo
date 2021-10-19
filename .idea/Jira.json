@@ -1,0 +1,321 @@
+{
+  "returnCode": 0,
+  "returnType": "SUCCESS",
+  "value": {
+	"spaces": [
+	  {
+		"name": "Workspace",
+		"i18n": "text.workspace",
+		"menu": [
+		  {
+			"name": "Home",
+			"i18n": "text.home",
+			"submenus": null
+		  },
+		  {
+			"name": "Customers",
+			"i18n": "text.customers",
+			"submenus": [
+			  {
+				"cta": {
+				  "initial": {
+					"i18n": "text.select_a_customer",
+					"name": "Select a customer"
+				  },
+				  "listing": {
+					"i18n": "text.change_customer",
+					"name": "Change customer"
+				  }
+				},
+				"items": [
+				  {
+					"name": "Customer overview",
+					"i18n": "text.customer_overview",
+					"isDisabled": false
+				  },
+				  {
+					"name": "Financial overview",
+					"i18n": "text.financial_overview",
+					"isDisabled": false
+				  },
+				  {
+					"name": "Payment settings",
+					"i18n": "text.payment_settings",
+					"isDisabled": false
+				  }
+				]
+			  }
+			]
+		  },
+		  {
+			"name": "Sales",
+			"i18n": "text.sales",
+			"submenus": [
+			  {
+				"cta": {
+				  "initial": {
+					"i18n": "text.select_a_quote",
+					"name": "Select a quote"
+				  },
+				  "listing": {
+					"i18n": "text.change_quote",
+					"name": "Change quote"
+				  }
+				},
+				"items": [
+				  {
+					"name": "Quote overview",
+					"i18n": "text.quote_overview",
+					"isDisabled": false
+				  },
+				  {
+					"name": "Quote entries",
+					"i18n": "text.quote_entries",
+					"isDisabled": false
+				  }
+				]
+			  }
+			]
+		  },
+		  {
+			"name": "Policies",
+			"i18n": "text.policies",
+			"submenus": [
+			  {
+				"cta": {
+				  "initial": {
+					"i18n": "text.select_a_policy",
+					"name": "Select a policy"
+				  },
+				  "listing": {
+					"i18n": "text.change_policy",
+					"name": "Change policy"
+				  }
+				},
+				"items": [
+				  {
+					"name": "Policy overview",
+					"i18n": "text.policy_overview",
+					"isDisabled": false
+				  },
+				  {
+					"name": "Policy contracts",
+					"i18n": "text.policy_contracts",
+					"isDisabled": false
+				  },
+				  {
+					"name": "Premium breakdown",
+					"i18n": "text.premium_breakdown",
+					"isDisabled": false
+				  },
+				  {
+					"name": "Financial transactions",
+					"i18n": "text.financial_transactions",
+					"isDisabled": false
+				  }
+				]
+			  }
+			]
+		  },
+		  {
+			"name": "Claims",
+			"i18n": "text.claims",
+			"submenus": [
+			  {
+				"cta": {
+				  "initial": {
+					"i18n": "text.select_a_claim",
+					"name": "Select a claim"
+				  },
+				  "listing": {
+					"i18n": "text.change_claim",
+					"name": "Change claim"
+				  }
+				},
+				"items": [
+				  {
+					"name": "Claim overview",
+					"i18n": "text.claim_overview",
+					"isDisabled": false
+				  },
+				  {
+					"name": "Major events",
+					"i18n": "text.major_events",
+					"isDisabled": false
+				  }
+				]
+			  }
+			]
+		  }
+		],
+		"default": true
+	  },
+	  {
+		"name": "Workspace2",
+		"i18n": "text.workspace2",
+		"menu": [
+		  {
+			"name": "Home",
+			"i18n": "text.home",
+			"submenus": null
+		  },
+		  {
+			"name": "Customers",
+			"i18n": "text.customers",
+			"submenus": [
+			  {
+				"cta": {
+				  "initial": {
+					"i18n": "text.select_a_customer",
+					"name": "Select a customer"
+				  },
+				  "listing": {
+					"i18n": "text.change_customer",
+					"name": "Change customer"
+				  }
+				},
+				"items": [
+				  {
+					"name": "Customer overview",
+					"i18n": "text.customer_overview",
+					"isDisabled": false
+				  },
+				  {
+					"name": "Financial overview",
+					"i18n": "text.financial_overview",
+					"isDisabled": true
+				  },
+				  {
+					"name": "Payment settings",
+					"i18n": "text.payment_settings",
+					"isDisabled": true
+				  }
+				]
+			  }
+			]
+		  },
+		  {
+			"name": "Sales",
+			"i18n": "text.sales",
+			"submenus": [
+			  {
+				"cta": {
+				  "initial": {
+					"i18n": "text.select_a_quote",
+					"name": "Select a quote"
+				  },
+				  "listing": {
+					"i18n": "text.change_quote",
+					"name": "Change quote"
+				  }
+				},
+				"items": [
+				  {
+					"name": "Quote overview",
+					"i18n": "text.quote_overview",
+					"isDisabled": false
+				  },
+				  {
+					"name": "Quote entries",
+					"i18n": "text.quote_entries",
+					"isDisabled": true
+				  }
+				]
+			  },
+			  {
+				"cta": {
+				  "initial": {
+					"i18n": "text.create_a_quote",
+					"name": "Create a quote"
+				  },
+				  "listing": {
+					"i18n": "text.change_quote",
+					"name": "Change quote"
+				  }
+				},
+				"items": [
+				  {
+					"name": "Edit quote",
+					"i18n": "text.edit_quote",
+					"isDisabled": false
+				  }
+				]
+			  }
+			]
+		  },
+		  {
+			"name": "Policies",
+			"i18n": "text.policies",
+			"submenus": [
+			  {
+				"cta": {
+				  "initial": {
+					"i18n": "text.select_a_policy",
+					"name": "Select a policy"
+				  },
+				  "listing": {
+					"i18n": "text.change_policy",
+					"name": "Change policy"
+				  }
+				},
+				"items": [
+				  {
+					"name": "Policy overview",
+					"i18n": "text.policy_overview",
+					"isDisabled": true
+				  },
+				  {
+					"name": "Policy contracts",
+					"i18n": "text.policy_contracts",
+					"isDisabled": true
+				  },
+				  {
+					"name": "Premium breakdown",
+					"i18n": "text.premium_breakdown",
+					"isDisabled": false
+				  },
+				  {
+					"name": "Financial transactions",
+					"i18n": "text.financial_transactions",
+					"isDisabled": false
+				  }
+				]
+			  }
+			]
+		  },
+		  {
+			"name": "Claims",
+			"i18n": "text.claims",
+			"submenus": [
+			  {
+				"cta": {
+				  "initial": {
+					"i18n": "text.select_a_claim",
+					"name": "Select a claim"
+				  },
+				  "listing": {
+					"i18n": "text.change_claim",
+					"name": "Change claim"
+				  }
+				},
+				"items": [
+				  {
+					"name": "Claim overview",
+					"i18n": "text.claim_overview",
+					"isDisabled": false
+				  },
+				  {
+					"name": "Major events",
+					"i18n": "text.major_events",
+					"isDisabled": true
+				  }
+				]
+			  }
+			]
+		  }
+		],
+		"default": false
+	  }
+	]
+  }
+}
